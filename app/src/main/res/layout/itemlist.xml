@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Id:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/idDato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prueba"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:text="Carnet:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/rm_carnet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prueba"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Nombre:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/rm_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prueba"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/idImagen"
+        android:layout_marginTop="11dp" />
+</LinearLayout>

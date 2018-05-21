@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PersonasRoom</string>
+    <string name="modificar">Modificar</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="Mostar">Mostrar</string>
+    <string name="lblMostrar">Personas Registradas</string>
+</resources>
